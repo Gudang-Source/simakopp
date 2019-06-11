@@ -15,17 +15,22 @@
         <ul class="navbar-nav ml-auto">
             <li class="active nav-item">
             <a href="#pablo" class="nav-link">
-                <i class="material-icons">explore</i> Discover
+                <i class="material-icons">home</i> Home
+            </a>
+            </li>
+            <li class="nav-item">
+            <a href="#pablo" class="nav-link">
+                <i class="material-icons">boxs</i> Aset
+            </a>
+            </li>
+            <li class="nav-item">
+            <a href="#pablo" class="nav-link">
+                <i class="material-icons">file</i> Komplain
             </a>
             </li>
             <li class="nav-item">
             <a href="#pablo" class="nav-link">
                 <i class="material-icons">account_circle</i> Profile
-            </a>
-            </li>
-            <li class="nav-item">
-            <a href="#pablo" class="nav-link">
-                <i class="material-icons">settings</i> Settings
             </a>
             </li>
         </ul>
