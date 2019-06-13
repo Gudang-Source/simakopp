@@ -5,28 +5,21 @@
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="<?=base_URL()?>welcome">
-        Simakopp </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        Simakopp </a>        
       </div>      
     </div>
   </nav>
 
   <div class="page-header header-filter" style="background-image: url('<?=base_URL()?>assets/img/bg7.jpg'); background-size: cover; background-position: top center;">
-  
   <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 ml-auto mr-auto">
           <div class="card card-login">
-          <?php echo form_open('welcome/checkAuth'); ?>          
+            <form class="form" method="" action="">
               <div class="card-header card-header-primary text-center">
                 <h4 class="card-title">Simakopp</h4>                
               </div>
-              <p class="description text-center">Sistem Informasi Manajemen Komplain</p>
+              <p class="description text-center">Sistem Manajemen Komplain Pemeliharaan</p>
               <div class="card-body">
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -34,7 +27,7 @@
                       <i class="material-icons">face</i>
                     </span>
                   </div>
-                  <input type="text" class="form-control" placeholder="User Name...">
+                  <input type="text" class="form-control" placeholder="First Name...">
                 </div>                
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -46,15 +39,14 @@
                 </div>
               </div>
               <div class="footer text-center">
-                <a href="#" class="btn btn-primary btn-link btn-wd btn-lg">Login</a>
-              </div>             
-              <?=form_close()?>         
+                <a href="<?=base_URL()?>dashboard" class="btn btn-primary">Login</a>
+              </div>
+            </form>
           </div>
         </div>
       </div>
   </div>
-      
-    
+     
     <footer class="footer">
       <div class="container">
       <div class="copyright float-right">
