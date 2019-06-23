@@ -9,7 +9,7 @@ class Komplain extends CI_Controller {
 
 	public function index()	{
 		$data = array(
-			'title' => 'Aset | Simakopp',
+			'title' => 'Komplain | Simakopp',
 			'ast' => $this->m_aset->data()
 		);
         $this->load->view('header', $data);

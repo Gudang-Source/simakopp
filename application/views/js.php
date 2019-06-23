@@ -13,6 +13,13 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
   <script src="<?=base_URL()?>assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+
+  <script type="text/javascript" src="<?=base_URL()?>assets/js/plugins/jquery-1.11.2.min.js"></script>    
+    <!--materialize js-->
+    <script type="text/javascript" src="<?=base_URL()?>assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="<?=base_URL()?>assets/js/materialize.js"></script>
+    <!--prism-->
+    <script type="text/javascript" src="<?=base_URL()?>assets/js/plugins/prism/prism.js"></script>
 </body>
 
 </html>

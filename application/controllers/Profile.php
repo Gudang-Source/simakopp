@@ -9,7 +9,7 @@ class Profile extends CI_Controller {
 
 	public function index()	{
 		$data = array(
-			'title' => 'Aset | Simakopp',
+			'title' => 'Profile | Simakopp',
 			'ast' => $this->m_aset->data()
 		);
         $this->load->view('header', $data);
