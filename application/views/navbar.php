@@ -14,22 +14,22 @@
         <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
             <li class="active nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?=base_URL()?>dashboard" class="nav-link">
                 <i class="material-icons">home</i> Home
             </a>
             </li>
             <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?=base_URL()?>aset" class="nav-link">
                 <i class="material-icons">business_center</i> Aset
             </a>
             </li>
             <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?=base_URL()?>komplain" class="nav-link">
                 <i class="material-icons">assignment</i> Komplain
             </a>
             </li>
             <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?=base_URL()?>profile" class="nav-link">
                 <i class="material-icons">account_circle</i> Profile
             </a>
             </li>
